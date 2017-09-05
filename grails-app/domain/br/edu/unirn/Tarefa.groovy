@@ -34,6 +34,7 @@ class Tarefa {
 
     static mapping = {
         texto type: "text"
+        logTarefas sort: 'id', order: 'asc'
     }
 
     String toString() { titulo }

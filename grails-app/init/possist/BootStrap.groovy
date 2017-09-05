@@ -20,6 +20,13 @@ class BootStrap {
                 usuario.save(flush: true)
             }
 
+            if(!Usuario.findByEmail("eder@eder.com")){
+                Usuario usuario = new Usuario()
+                usuario.email = "eder@eder.com"
+                usuario.senha = "eder"
+                usuario.save(flush: true)
+            }
+
         }
     }
     def destroy = {

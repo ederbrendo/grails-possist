@@ -10,6 +10,7 @@
 //= require vue/vue.js
 //= require vue-resource/vue-resource.js
 //= require vuetable/dist/vue-table.js
+//= require moment-with-locale.js
 //= require bootstrap-datepicker/js/bootstrap-datepicker.min.js
 //= require bootstrap-datepicker/js/bootstrap-datepicker.pt-BR.min.js
 //= require vue-validator/vue-validator.js
@@ -20,6 +21,8 @@
 //= require jquery.maskedinput/jquery.maskedinput.js
 //= require webcamjs-bower/webcam.js
 //= require_self
+
+Vue.config.warnExpressionErrors = false
 
 var WBSAPP = function(){
     return {
